@@ -1,0 +1,94 @@
+:root{
+    --rosa-1: #d571ff;
+    --rosa-2: #b70185;
+    --verde-1: #53a616;
+    --verde-2: #2c6c0b;
+    --color-5: #474bff;
+}
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(0deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+}
+
+/* Estilos del contenedor entero */
+.flowers{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 36vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+/* Estilos del tulipan */
+
+.tulipan{
+    width: 100px;
+    height: 36vh;
+}
+
+.tulipan__head{
+    width: 100%;
+    height: 37%;
+    position: relative;
+}
+
+.cupula{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, var(--rosa-1) 0%, var(--rosa-2) 100%);    
+    border-radius: 50% 50% 50% 50% / 80% 80% 20% 20%;
+    position: absolute;
+    z-index: 1;
+}
+
+.petalo{
+    width: 65%;
+    height: 100%;
+    background: linear-gradient(0deg, var(--rosa-2) 0%, var(--rosa-1) 100%);    
+    border-radius: 0% 100% 0% 100% / 60% 100% 0% 40%;
+    position: absolute;
+}
+
+.petalo:nth-child(2){
+    transform: scaleX(-1);
+    right: 0;
+}
+
+
+.tulipan__body{
+    width: 100%;
+    height: 63%;
+    position: relative;
+}
+
+.tallo{
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(0deg, var(--verde-2) 0%, var(--verde-1) 100%);
+    border-radius: 50% 50% 50% 50% / 0% 0% 100% 100%;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.leaf{
+    border-radius: 0% 100% 0% 100% / 0% 100% 10% 100%;
+}
+
