@@ -92,6 +92,11 @@ p {
   height: 36vh;
 }
 
+.tulipan:hover   {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
 .tulipan__head {
   width: 100%;
   height: 37%;
@@ -136,7 +141,18 @@ p {
 }
 
 .leaf {
+  width: 30px;
+  height: 50px;
+  position: relative;
+  background: linear-gradient(0deg, var(--verde-1) 0%, var(--verde-2) 100%);
   border-radius: 0% 100% 0% 100% / 0% 100% 10% 100%;
+  top: 5px;
+  right: 20px;
+}
+
+.leaf:nth-child(2) {
+  transform: scaleX(-1);
+  right: -15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -159,7 +175,6 @@ p {
   .petalo {
     width: 70%;
   }
-  
 }
 
 /* Definición de las animaciones */

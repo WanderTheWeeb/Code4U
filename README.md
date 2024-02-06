@@ -2,7 +2,7 @@
 
 ## ¡Bienvenido a este pequeño proyecto dedicado a Vianca! 🌸
 
-Esta página web ha sido creada con cariño y con poca dedicación exclusivamente para Vianca, una chica especial que muchas cosas, y quiero empezar con estos pequeño detalles.
+Esta página web ha sido creada con cariño y con poca dedicación exclusivamente para Vianca, una chica especial a la cual quiero con tanto cariño, y quiero empezar con estos pequeño detalles.
 
 Agradecemos tu visita a esta página web dedicada a Vianca. ¡Solo deseo transmitirte mis buenas vibes!
 
