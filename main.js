@@ -35,7 +35,7 @@ window.onresize = generateTulipan;
 
 
 const defaults = {
-    spread: 360,
+    spread: 400,
     ticks: 100,
     gravity: 0,
     decay: 0.94,
@@ -61,3 +61,5 @@ const defaults = {
     particleCount: 10,
     scalar: 4,
   });
+
+  
