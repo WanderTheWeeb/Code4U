@@ -159,27 +159,9 @@ p {
   right: -15px;
 }
 
-@media screen and (max-width: 768px) {
-  .tulipan {
-    width: 80px;
-  }
+/* Estilos responsivos */
 
-  .tulipan__head {
-    height: 40%;
-  }
 
-  .tulipan__body {
-    height: 60%;
-  }
-
-  .tallo {
-    width: 25%;
-  }
-
-  .petalo {
-    width: 70%;
-  }
-}
 
 /* Definición de las animaciones */
 

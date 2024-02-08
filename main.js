@@ -1,3 +1,5 @@
+
+
 // Función para generar los tulipanes dinámicamente dependiendo del ancho del dispositivo
 function generateTulipan() {
     var flowersContainer = document.getElementById('flowers');
