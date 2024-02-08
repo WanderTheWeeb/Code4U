@@ -164,26 +164,31 @@ p {
 @media (max-width: 768px) {
   .message {
     height: 70vh;
+    justify-content: flex-start;
   }
 
   h1{
-    font-size: 2rem;
+    font-size: 24px;
   }
 
   p{
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   .title{
-    font-size: 44px;
+    font-size: 35px;
   }
 
   .wannabewithu{
-    font-size: 44px;
+    font-size: 35px;
   }
 
   .deserve{
-    font-size: 44px;
+    font-size: 22px;
+  }
+
+  .begin{
+    font-size: 22px;
   }
 
   .flowers {
