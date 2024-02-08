@@ -8,5 +8,11 @@ Agradecemos tu visita a esta página web dedicada a Vianca. ¡Solo deseo transmi
 
 ¡Gracias por ser parte de este regalo especial!
 
+ _    ___                       
+| |  / (_)___ _____  _________ _
+| | / / / __ `/ __ \/ ___/ __ `/
+| |/ / / /_/ / / / / /__/ /_/ / 
+|___/_/\__,_/_/ /_/\___/\__,_/  
+                               
 Atentamente,
 José Francisco Santes Primo
